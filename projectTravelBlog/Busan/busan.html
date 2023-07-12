@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog: Busan</title>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../index/reset.css" />
+    <link rel="stylesheet" href="../Busan/busan.css" />
+  </head>
+  <body>
+    <div class="topNav">
+      <div class="leftSide">
+        <div id="airPlane">&#9992;</div>
+      </div>
+      <div class="rightSide">
+        <a href="../index/index.html">Home</a> |
+        <a href="../aboutME/aboutMe.html">About me</a> |
+        <a href="../whereNext/whereNext.html">Where next?</a>
+      </div>
+    </div>
+
+    <header>
+      <div class="headerImg">
+        <div id="cityHeader">Busan</div>
+      </div>
+    </header>
+    <h1>South Korea</h1>
+    <h2>Jan 1-5, 2022</h2>
+    <main>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="../images/indexBusan.JPG" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="../images/Busan2.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="../images/Busan3.jpg" style="width: 100%" />
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="../images/Busan4.jpg" style="width: 100%" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <section class="mainContent">
+        <div id="cityInfo">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
+            praesentium enim voluptatibus repudiandae eveniet cumque, tempore
+            deleniti ratione. Nostrum ullam vero officia aut eos impedit
+            deserunt odit tenetur corrupti ratione. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Numquam, dolores rerum id ullam
+            voluptatem optio velit totam inventore architecto amet repellendus
+            animi voluptatibus eum illum nemo saepe nesciunt, nisi corrupti.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            dignissimos adipisci eius ipsum fugit iure doloribus sint distinctio
+            minima, corporis nemo odit consequatur illo voluptate! Dolores,
+            recusandae. Excepturi, quis minus? Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Adipisci laboriosam laborum soluta quo
+            vero facere culpa! Libero deserunt nobis culpa minus nesciunt quos
+            assumenda mollitia, at asperiores rerum veniam distinctio? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Sint ex unde vel
+            deleniti temporibus dolor, accusantium rerum eligendi, quae
+            inventore architecto itaque provident, beatae debitis voluptatem
+            natus laboriosam? Et, hic! Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Corrupti alias pariatur odio, error ullam nostrum
+            placeat, dolorum ad soluta doloremque numquam, rerum quaerat ab.
+            Saepe expedita quisquam nam facere placeat! Lorem ipsum dolor sit
+            amet consectetur, adipisicing elit. Illum, amet consequatur!
+            Mollitia accusantium provident delectus blanditiis dolorum deserunt
+            laudantium cum soluta! Sequi temporibus nesciunt impedit reiciendis
+            quam repudiandae deserunt odio.
+          </p>
+        </div>
+      </section>
+    </main>
+    <section class="cityDetails">
+      <div id="myMapBox"></div>
+      <div id="forecast"></div>
+    </section>
+    <footer>
+      <div class="footer">
+        <a href="#copyright">Copyright&copy;</a>
+        <a href="#contact">Contact</a>
+        <a href="#socialMedia">Social Media</a>
+      </div>
+    </footer>
+    <script src="../Busan/busan.js"></script>
+  </body>
+</html>

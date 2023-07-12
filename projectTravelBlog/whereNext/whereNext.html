@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog: Where Next?</title>
+    <link rel="stylesheet" href="../index/reset.css" />
+    <link rel="stylesheet" href="../whereNext/whereNext.css" />
+  </head>
+  <body>
+    <div class="topNav">
+      <div class="leftSide">
+        <div id="airPlane">&#9992;</div>
+      </div>
+      <div class="rightSide">
+        <a href="../index/index.html">Home</a> |
+        <a href="../aboutME/aboutMe.html">About me</a> |
+        <a href="whereNext.html">Where next?</a>
+      </div>
+    </div>
+    <h1>Help me choose the next location</h1>
+    <main>
+      <div id="whereForm">
+        <form id="myForm" action="" method="">
+          <label for="city">Which city?</label>
+          <div><input type="text" name="city" placeholder="City" /></div>
+          <label for="country">Which country?</label>
+          <div><input type="text" name="country" placeholder="Country" /></div>
+          <label for="month"> Best time to go?</label>
+          <div>
+            <select id="bestMonth">
+              <option value="Jan">January</option>
+              <option value="Feb">February</option>
+              <option value="March">March</option>
+              <option value="April">April</option>
+              <option value="May">May</option>
+              <option value="June">June</option>
+              <option value="July">July</option>
+              <option value="Aug">August</option>
+              <option value="Sept">September</option>
+              <option value="Oct">October</option>
+              <option value="Nov">November</option>
+              <option value="Dec">December</option>
+            </select>
+          </div>
+          <label for="suggestions">What should I do while I'm there?</label>
+
+          <textarea
+            id="textInput"
+            placeholder="You should check out..."
+          ></textarea>
+
+          <input type="submit" id="buttonSubmit" value="Send" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <a href="#copyright">Copyright&copy;</a>
+        <a href="#contact">Contact</a>
+        <a href="#socialMedia">Social Media</a>
+      </div>
+    </footer>
+    <script src="../whereNext/whereNext.js"></script>
+  </body>
+</html>

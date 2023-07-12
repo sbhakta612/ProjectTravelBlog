@@ -1,0 +1,110 @@
+body {
+  margin: 30px 40px;
+}
+.topNav {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+
+  height: 50px;
+}
+.leftSide {
+  margin-right: auto;
+}
+
+.rightSide {
+  margin-left: auto;
+}
+
+#airPlane {
+  margin-right: 10px;
+  color: gray;
+}
+
+a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: gray;
+}
+
+#airPlane.animate {
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  color: gray;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#aboutMeInfo {
+  padding: 25px;
+}
+
+section {
+  margin-top: 40px;
+  display: flex;
+  gap: 2em;
+  margin-bottom: 100px;
+}
+.footer {
+  margin-top: 200px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+}
+.footer a {
+  margin: 0 16px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    margin: 2px 10px;
+  }
+  a {
+    text-decoration: underline;
+  }
+  section {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-bottom: 100px;
+  }
+  #aboutMeImg {
+    order: -1;
+  }
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  .footer a {
+    margin: 0px;
+  }
+}
